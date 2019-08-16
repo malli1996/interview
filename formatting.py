@@ -1,0 +1,6 @@
+i = input('enter any number:')
+n1 = int('%s'%i)
+n2 = int('%s%s'%(i,i))
+n3 = int('%s%s%s'%(i,i,i))
+n4 = int('%s%s%s%s'%(i,i,i,i))
+print(n1+n2+n3+n4)
